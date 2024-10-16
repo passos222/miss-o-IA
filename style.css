@@ -2,10 +2,10 @@
 
 :root {
     --cor-fundo: #F4F7F6;
-    --cor-principal: #FF9800;  /* Cor vibrante que remete à energia e ao esporte */
-    --cor-secundaria: #F44336; /* Tom mais descontraído, mas ainda sério */
-    --cor-destaque: #FFEB3B;   /* Cor vibrante e otimista */
-    --cor-texto: #212121;      /* Texto escuro para boa legibilidade */
+    --cor-principal: #FF9800;
+    --cor-secundaria: #F44336; 
+    --cor-destaque: #FFEB3B;
+    --cor-texto: #212121;
     --cor-texto-secundario: #FFFFFF;
 }
 
