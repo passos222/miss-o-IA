@@ -1,63 +1,126 @@
 export const perguntas = [
     {
-        enunciado: "Você prefere nike ou adidas?",
+        enunciado: "Qual é a altura da rede no futevôlei masculino?",
         alternativas: [
             {
-                texto: "nike",
+                texto: "2.20 metros",
                 afirmacao: [
-                    "você tem Bom gosto",
-                    "você sabe que eu gostei da escolha"
-                    ],
+                    "Resposta correta! A altura da rede masculina no futevôlei é de 2.20 metros.",
+                    "Boa escolha, você conhece bem o esporte!"
+                ],
                 proxima: 1,
             },
             {
-                texto: "adidas",
+                texto: "2.43 metros",
                 afirmacao: [
-                    "você é um bosta",
-                    "você não sabe escolher"
-                    ],
-                proxima: 2,
+                    "Errado! 2.43 metros é a altura no vôlei, não no futevôlei.",
+                    "Tente novamente!"
+                ],
+                proxima: 1,
             }           
-            
         ]
     },
     {
-        enunciado: "principal dano causado pelo racismo",
+        enunciado: "Quantos jogadores compõem uma equipe de futevôlei?",
         alternativas: [
             {
-                texto:"fortalece a autoestima das vitimas",
+                texto: "2 jogadores",
                 afirmacao: [
-                    "racismo enfraquece a autoestima, perpetuando sentimentos de inferioridade",
-                    "afirmacao 2"
-                    ]
+                    "Exato! O futevôlei é jogado em duplas.",
+                    "Você está mandando bem!"
+                ],
+                proxima: 2,
             },
             {
-                texto: "contribui para a exclusão social e marginalização de grupos minoritarios ",
+                texto: "6 jogadores",
                 afirmacao: [
-                    "reforça a desigualdade e estereótipos discriminatórios",
-                    "afirmacao 2"
-                    ]
+                    "Errado! 6 jogadores é a quantidade em uma equipe de vôlei, mas no futevôlei são 2.",
+                    "Vamos para a próxima pergunta!"
+                ],
+                proxima: 2,
             }
         ]
     },
     {
-        enunciado: "você apoia racismo?",
+        enunciado: "O futevôlei teve origem em qual país?",
         alternativas: [
             {
-                texto:"sim, eu apoio o movimento racista",
+                texto: "Brasil",
                 afirmacao: [
-                    "você realmente já ouviu  falar o que é o racismo?  A sua história e quantas milhares de pessoa foram prejudicadas e mortas? ",
-                    "afirmacao 2"
-                    ]
+                    "Isso mesmo! O futevôlei nasceu nas praias do Rio de Janeiro.",
+                    "Parabéns, você conhece a história do esporte!"
+                ],
+                proxima: 3,
             },
             {
-                texto:"Não, sou contra o movimento racista",
+                texto: "Estados Unidos",
                 afirmacao: [
-                    "que legal! concordamos que o racismo não é uma coisa boa ",
-                    "afirmacao 2"
-                    ]
+                    "Não, o futevôlei é um esporte tipicamente brasileiro, surgido nas praias do Rio.",
+                    "Vamos continuar!"
+                ],
+                proxima: 3,
             }
-            
         ]
     },
+    {
+        enunciado: "Qual é o principal fundamento do futevôlei?",
+        alternativas: [
+            {
+                texto: "Cabeceio",
+                afirmacao: [
+                    "Correto! O cabeceio é um dos fundamentos mais utilizados no futevôlei.",
+                    "Você realmente entende do esporte!"
+                ],
+                proxima: 4,
+            },
+            {
+                texto: "Bloqueio com as mãos",
+                afirmacao: [
+                    "Errado! No futevôlei, não é permitido o uso das mãos.",
+                    "Vamos para a próxima!"
+                ],
+                proxima: 4,
+            }
+        ]
+    },
+    {
+        enunciado: "Quantos toques, no máximo, uma equipe pode dar na bola antes de enviá-la para o outro lado?",
+        alternativas: [
+            {
+                texto: "3 toques",
+                afirmacao: [
+                    "Exato! Assim como no vôlei, no futevôlei também são permitidos no máximo 3 toques antes de enviar a bola ao adversário.",
+                    "Boa resposta!"
+                ],
+                proxima: 5,
+            },
+            {
+                texto: "4 toques",
+                afirmacao: [
+                    "Errado! O limite é de 3 toques por equipe, assim como no vôlei.",
+                    "Vamos para a última pergunta!"
+                ],
+                proxima: 5,
+            }
+        ]
+    },
+    {
+        enunciado: "Qual parte do corpo não é permitida para tocar a bola no futevôlei?",
+        alternativas: [
+            {
+                texto: "As mãos",
+                afirmacao: [
+                    "Isso mesmo! No futevôlei, não é permitido usar as mãos.",
+                    "Você acertou!"
+                ]
+            },
+            {
+                texto: "A cabeça",
+                afirmacao: [
+                    "Errado! A cabeça é permitida no futevôlei, mas as mãos não são.",
+                    "Vamos revisar as regras!"
+                ]
+            }
+        ]
+    }
 ];

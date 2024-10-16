@@ -1,5 +1,5 @@
-import {aleatorio, nome} from './aleatorio.js';
-import {perguntas} from './perguntas.js';
+import { aleatorio, nome } from './aleatorio.js';
+import { perguntas } from './perguntas.js';
 
 const caixaPrincipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelector(".caixa-perguntas");
@@ -10,7 +10,7 @@ const botaoJogarNovamente = document.querySelector(".novamente-btn");
 const botaoIniciar = document.querySelector(".iniciar-btn");
 const telaInicial = document.querySelector(".tela-inicial");
 
-let atual = 0; 
+let atual = 0;
 let perguntaAtual;
 let historiaFinal = "";
 
@@ -27,7 +27,7 @@ function iniciaJogo() {
 }
 
 function mostraPergunta() {
-    if(atual >= perguntas.length){
+    if(atual >= perguntas.length) {
         mostraResultado();
         return;
     }
@@ -37,8 +37,8 @@ function mostraPergunta() {
     mostraAlternativas();
 }
 
-function mostraAlternativas(){
-    for(const alternativa of perguntaAtual.alternativas){
+function mostraAlternativas() {
+    for(const alternativa of perguntaAtual.alternativas) {
         const botaoAlternativas = document.createElement("button");
         botaoAlternativas.textContent = alternativa.texto;
         botaoAlternativas.addEventListener("click", () => respostaSelecionada(alternativa));
@@ -46,20 +46,20 @@ function mostraAlternativas(){
     }
 }
 
-function respostaSelecionada(opcaoSelecionada){
+function respostaSelecionada(opcaoSelecionada) {
     const afirmacoes = aleatorio(opcaoSelecionada.afirmacao);
     historiaFinal += afirmacoes + " ";
     if(opcaoSelecionada.proxima !== undefined) {
         atual = opcaoSelecionada.proxima;
-    }else {
+    } else {
         mostraResultado();
         return;
     }   
     mostraPergunta();
 }
 
-function mostraResultado(){
-    caixaPerguntas.textContent = `Em 2049, ${nome}`;
+function mostraResultado() {
+    caixaPerguntas.textContent = `Resultado final: ${nome}`;
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
     caixaResultado.classList.add("mostrar");
