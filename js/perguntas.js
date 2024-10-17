@@ -1,6 +1,6 @@
 export const perguntas = [
     {
-        enunciado: "Qual é a altura da rede no futevôlei masculino?",
+        enunciado: "Você sabe qual é a altura da rede no futevôlei masculino?",
         alternativas: [
             {
                 texto: "2.20 metros",
@@ -21,7 +21,7 @@ export const perguntas = [
         ]
     },
     {
-        enunciado: "Quantos jogadores compõem uma equipe de futevôlei?",
+        enunciado: "Você sabe dizer quantos jogadores compõem uma equipe de futevôlei?",
         alternativas: [
             {
                 texto: "2 jogadores",
@@ -42,7 +42,7 @@ export const perguntas = [
         ]
     },
     {
-        enunciado: "O futevôlei teve origem em qual país?",
+        enunciado: "Você sabe em qual país o futevôlei teve sua origem ?",
         alternativas: [
             {
                 texto: "Brasil",
@@ -63,7 +63,7 @@ export const perguntas = [
         ]
     },
     {
-        enunciado: "Qual é o principal fundamento do futevôlei?",
+        enunciado: "Você saberia dizer qual é o principal fundamento do futevôlei ?",
         alternativas: [
             {
                 texto: "Cabeceio",
@@ -84,7 +84,7 @@ export const perguntas = [
         ]
     },
     {
-        enunciado: "Quantos toques, no máximo, uma equipe pode dar na bola antes de enviá-la para o outro lado?",
+        enunciado: "Você sabe quantos toques, no máximo, uma equipe pode dar na bola antes de enviá-la para o outro lado?",
         alternativas: [
             {
                 texto: "3 toques",
@@ -105,7 +105,7 @@ export const perguntas = [
         ]
     },
     {
-        enunciado: "Qual parte do corpo não é permitida para tocar a bola no futevôlei?",
+        enunciado: "Você sabe dizer qual a parte do corpo não é permitida para tocar a bola no futevôlei?",
         alternativas: [
             {
                 texto: "As mãos",
